@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Comercios = () => {
     return ( 
         <>
-            <h1 className="text-3xl font-light mb-4">Comercios</h1>
+            <h1 className="text-3xl font-light mb-4">Bienvenido al sitio administrador de la marca Cantón SOMOS HOJANCHA</h1>
             <Link to="/nuevo-comercio" className="  bg-blue-800 hover:bg-blue-700, inline-block mb-5 p-2 text-white uppercase font-bold">
                 Agregar comercio
             </Link>
