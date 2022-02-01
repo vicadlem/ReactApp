@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Routes, Route } from 'react-router';
 
 import Inicio from './components/paginas/Inicio';
@@ -10,23 +10,6 @@ import Sidebar from './components/ui/Sidebar';
 
 
 function App() {
-  /*useEffect(() => {
-    fetch('http://localhost:4000', {
-      method: 'POST',
-      Headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query: `
-        {
-          obtenerCategorias {
-            nombre
-          }
-        }
-      `})
-    })
-    .then(res => res.json())
-    .then(res => {
-      console.log(res.categoria)
-    })
-  })*/
   return (
     <div className="md:flex min-h-screen">
       <Sidebar />
